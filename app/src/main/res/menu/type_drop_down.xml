@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/dropdown_menu1"
+        app:showAsAction="ifRoom"
+        android:title="School"
+        android:visible="true" />
+    <item
+        android:id="@+id/dropdown_menu2"
+        app:showAsAction="ifRoom|withText"
+        android:title="Work"
+        android:visible="true" />
+    <item
+        android:id="@+id/dropdown_menu3"
+        app:showAsAction="ifRoom"
+        android:title="Hobby"
+        android:visible="true" />
+    <item
+        android:id="@+id/dropdown_menu4"
+        app:showAsAction="ifRoom"
+        android:title="Finance"
+        android:visible="true" />
+    <item
+        android:id="@+id/dropdown_menu5"
+        app:showAsAction="ifRoom"
+        android:title="Social"
+        android:visible="true" />
+    <item
+        android:id="@+id/dropdown_menu6"
+        app:showAsAction="ifRoom"
+        android:title="Other"
+        android:visible="true" />
+</menu>

@@ -1,0 +1,14 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:summary="@string/pref_build_version"
+        android:title="@string/pref_build_version_title">
+
+    </Preference>
+
+    <Preference android:title="@string/pref_license_title">
+        <intent
+            android:targetPackage="com.blanyal.remindly"
+            android:targetClass="com.blanyal.remindme.LicencesActivity"
+            />
+    </Preference>
+</PreferenceScreen>

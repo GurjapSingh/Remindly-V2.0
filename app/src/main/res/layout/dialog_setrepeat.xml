@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="25dp"
+    android:layout_marginStart="25dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:text="@string/repeat_every"
+        android:textSize="16sp"
+        android:textColor="@color/mdtp_white"/>
+
+    <EditText
+        android:id="@+id/RepeatNo_Dialog"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="5" />
+
+    <Spinner
+        android:id="@+id/RepeatTypeSpinner"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/repeat_type_entries"
+        android:padding="0dp"/>
+
+
+</LinearLayout>

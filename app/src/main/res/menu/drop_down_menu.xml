@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single"
+        android:id="@+id/sorting_group">
+        <item
+            android:id="@+id/dropdown_menu1"
+            android:title="Alphabetically"
+            android:visible="true"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/dropdown_menu2"
+            android:title="Date of Creation"
+            android:visible="true"
+            app:showAsAction="ifRoom|withText" />
+        <item
+            android:id="@+id/dropdown_menu3"
+            android:title="Date of Event"
+            android:visible="true"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/dropdown_menu4"
+            android:title="Priority Level"
+            android:visible="true"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/dropdown_menu5"
+            android:title="Alarm Status"
+            android:visible="true"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/dropdown_menu6"
+            android:title="Type"
+            android:visible="true"
+            app:showAsAction="ifRoom" />
+    </group>
+
+</menu>

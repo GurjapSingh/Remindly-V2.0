@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <StringPreference android:title="Sort Selection"
+        android:key="sortSelection"
+        android:summary="The currently selected sort method"
+        android:defaultValue="Alphabetically">
+    </StringPreference>
+</PreferenceScreen>
