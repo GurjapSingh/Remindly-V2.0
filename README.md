@@ -1,8 +1,6 @@
-# Remindly #
+# Remindly V2 #
 
-V2
--------
-    For our course term project, we were tasked with finding an open-source app and improving it over the course of the semester. My team and I worked in an Agile Environment where we did 2 week sprints. 
+For our course term project, we were tasked with finding an open-source app and improving it over the course of the semester. My team and I worked in an Agile Environment where we did 2 week sprints. 
 
     Other Team Members
     - Chenxingyu Chen (Alex)
@@ -10,11 +8,33 @@ V2
     - Julian Jarrin
     - Michal Chorobik
 
-    Features we added
-    - redid menus
-    - location stuff
-    - sorting
-    - adding importance
+   Features we added
+   ------------------------
+   
+   Daily Agenda
+   -------------
+   <img src="screenshots/dailyAgenda.png" width="35%" height="35%">
+   
+   Location
+   -------------
+   <img src="screenshots/location.png" width="35%" height="35%">
+   
+   Multiselect
+   -------------
+   <img src="screenshots/multiselect.png" width="35%" height="35%">
+   
+   Priority
+   -------------
+   <img src="screenshots/priority.png" width="35%" height="35%">
+   
+   Reminder Types
+   -------------
+   <img src="screenshots/reminderTypes.png" width="35%" height="35%">
+   
+   Sorting
+   -------------
+   <img src="screenshots/sorting.png" width="35%" height="35%">
+
 
 
 # Original App #
